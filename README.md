@@ -18,6 +18,17 @@ A web-based music player application built using HTML, CSS, and JavaScript. This
 - Display song information: title, artist, and album.
 - Responsive design for various screen sizes.
 
+Music Player/
+├── index.html
+├── script.js
+├── style.css
+├── songs/
+│   ├── song1.mp3
+│   ├── song2.mp3
+├── generatePlayList.js
+├── playlist.json
+├── README.md
+
 ## Installation
 
 1. Clone the repository.
