@@ -1,0 +1,108 @@
+/* Apply basic styles to the music player container */
+#music-player {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    margin: 0 auto;
+  }
+
+#audio-player{
+    margin-bottom: 10px;
+}
+  
+  /* Style the playlist container */
+  #playlist {
+    margin-top: 20px;
+  }
+  
+  /* Style the "Add Song" button */
+  #add-song {
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #add-song:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style the song list */
+  #song-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #song-list li {
+    margin: 5px 0;
+  }
+  
+  /* Style the controls container */
+  #controls {
+    margin-top: 20px;
+  }
+  
+  /* Style the play/pause button */
+  #play-pause {
+    background-color: #33adff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #play-pause:hover {
+    background-color: #1f8dd6;
+  }
+  
+  /* Style the range inputs (volume and progress) */
+  input[type="range"] {
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 10px;
+    background: #ddd;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 0;
+    outline: none;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #0074d9;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  /* Style the song information container */
+  #song-info {
+    margin-top: 20px;
+  }
+  
+  /* Additional styling for song title, artist, and album */
+  #song-title {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  #artist {
+    font-size: 14px;
+    color: #999;
+  }
+  
+  #album {
+    font-size: 14px;
+    color: #999;
+  }
+  

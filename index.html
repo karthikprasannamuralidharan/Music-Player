@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Link to an external CSS file for styling -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- Container for the music player -->
+    <div id="music-player">
+        <!-- Audio element for playing music with built-in controls -->
+        <audio id="audio-player" controls></audio>
+
+        <!-- Container for the playlist -->
+        <div id="playlist">
+            <!-- Playlist title -->
+            <h3>Playlist</h3>
+            <!-- Unordered list for displaying song list -->
+            <ul id="song-list">
+                <!-- Your playlist items will be dynamically added here -->
+
+                <!-- Sample playlist items -->
+                <li>Kali Kali Zulfon Ke - Jubin Nautiyal</li>
+                <li>Bhool Jaa - Arijit Singh</li>
+            </ul>
+        </div>
+
+        <!-- Controls for the audio player -->
+        <div id="controls">
+            <!-- Button for playing or pausing the audio -->
+            <button id="play-pause">Play</button>
+
+            <!-- Input element for controlling the volume with a range of 0 to 1 -->
+            <input type="range" id="volume" min="0" max="1" step="0.01" value="1">
+
+            <!-- Input element for controlling the playback progress with a range of 0 to 100 -->
+            <input type="range" id="progress" min="0" max="100" step="0.1" value="0">
+        </div>
+
+        <!-- Display information about the currently playing song -->
+        <div id="song-info">
+            <!-- Title of the currently playing song -->
+            <h3 id="song-title"></h3>
+
+            <!-- Artist of the currently playing song -->
+            <p id="artist"></p>
+
+            <!-- Album of the currently playing song -->
+            <p id="album"></p>
+        </div>
+
+        <!-- Display the current time of the audio playback -->
+        <p id="current-time">0:00</p>
+
+    </div>
+
+    <!-- Include an external JavaScript file for controlling the music player -->
+    <script src="script.js"></script>
+</body>
+</html>
